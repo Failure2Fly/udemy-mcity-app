@@ -51,7 +51,7 @@ class Stripes extends Component {
                     timing: {delay: stripe.delay, duration: 200, ease: easePolyOut}
                 }}
             >
-                {({background,opacity,rotate,left,top})=>{
+                {({background,opacity,left,rotate,top})=>{
                     return(
                         <div
                             className="stripe"
